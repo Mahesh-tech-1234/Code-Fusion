@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - CodeHUB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CodeHUB</h1>
+        <div class="button-container">
+            <a href="login.html" class="btn">Login</a>
+            <a href="register.html" class="btn">Register</a>
+        </div>
+        <form id="registerForm" action="/register" method="POST">
+            <h2>Register</h2>
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="username" required>
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
